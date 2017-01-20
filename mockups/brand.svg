@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg2"
+   height="11.195mm"
+   width="42.613mm"
+   version="1.1"
+   viewBox="0 0 150.99155 39.668274"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="logo-mockups3.svg">
+  <defs
+     id="defs3986" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1301"
+     inkscape:window-height="744"
+     id="namedview3984"
+     showgrid="false"
+     inkscape:zoom="0.78793242"
+     inkscape:cx="-10.085795"
+     inkscape:cy="-47.906428"
+     inkscape:window-x="65"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <metadata
+     id="metadata4">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path
+     id="path3207"
+     fill-opacity="0"
+     d="m-382.91-149.91v-166.38h328.45 328.45v166.38 166.38h-328.45-328.45v-166.38z" />
+  <text
+     id="text3219"
+     style="word-spacing:0px;letter-spacing:0px"
+     xml:space="preserve"
+     font-size="40px"
+     line-height="125%"
+     y="-101.82343"
+     x="110.83862"
+     font-family="Roboto"
+     fill="#000000"><tspan
+       id="tspan3221"
+       x="110.83862"
+       y="-101.82343" /></text>
+  <flowRoot
+     id="flowRoot3350"
+     style="word-spacing:0px;letter-spacing:0px"
+     xml:space="preserve"
+     transform="translate(-380.1 -669.99)"
+     line-height="125%"
+     font-size="40px"
+     font-family="sans-serif"
+     fill="#000000"><flowRegion
+       id="flowRegion3352"><rect
+         id="rect3354"
+         y="537.09"
+         width="216.36"
+         x="454.55"
+         height="113.64" /></flowRegion><flowPara
+       id="flowPara3356" /></flowRoot>  <g
+     id="g3416"
+     transform="translate(-380.1 -669.99)">
+    <flowRoot
+       id="flowRoot3336-0-0-7-8-93"
+       style="word-spacing:0px;letter-spacing:0px"
+       xml:space="preserve"
+       transform="matrix(.68971 0 0 1 315.32 556.14)"
+       line-height="125%"
+       font-size="40px"
+       font-family="Roboto"
+       fill="#000000"><flowRegion
+         id="flowRegion3338-9-8-5-0-60"><rect
+           id="rect3340-0-1-60-5-6"
+           height="147.97"
+           width="440.37"
+           y="107.71"
+           x="156.26" /></flowRegion><flowPara
+         id="flowPara3342-70-1-46-2-2"
+         font-weight="500"
+         font-size="40.639px"
+         font-family="Roboto"><flowSpan
+           id="flowSpan3344-2-9-9-8-6"
+           font-weight="bold"
+           font-family="Roboto"
+           fill="#5a5a5b">M<flowSpan
+   id="flowSpan4050-5-1"
+   font-weight="bold"
+   font-size="34.618px"
+   font-family="Roboto">Y</flowSpan></flowSpan><flowSpan
+           id="flowSpan3358-0-9-6-7-8"
+           fill="#56d926">K<flowSpan
+   id="flowSpan4052-2-7"
+   font-size="34.618px">ANJI</flowSpan></flowSpan></flowPara></flowRoot>    <rect
+       id="rect3388-0-3-8-5-92"
+       stroke-linejoin="round"
+       height="36.168"
+       width="36.168"
+       stroke="#4ddb37"
+       stroke-linecap="round"
+       y="671.74"
+       x="381.85"
+       stroke-width="3.5"
+       fill="#4ddb37" />
+    <text
+       id="text3390-0-9-9-7-0"
+       style="word-spacing:0px;letter-spacing:0px"
+       transform="scale(.95768 1.0442)"
+       line-height="125%"
+       xml:space="preserve"
+       font-size="51.706px"
+       y="671.66217"
+       x="403.00223"
+       font-family="sans-serif"
+       fill="#000000"><tspan
+         id="tspan3392-4-9-6-9-2"
+         font-weight="bold"
+         stroke-opacity=".098039"
+         font-size="29.084px"
+         stroke="#000000"
+         y="671.66217"
+         x="403.00223"
+         font-family="'Noto Sans CJK JP'"
+         fill="#ffffff">字</tspan></text>
+  </g>
+</svg>

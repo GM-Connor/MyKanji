@@ -1,3 +1,10 @@
 body {
-	background: #359dd7;
+	background: #fff;
+	padding: 15px;
+}
+img.brand {
+	clear: both;
+	display: block;
+	margin-bottom: 15px;
+	/*max-width: 200px;*/
 }
