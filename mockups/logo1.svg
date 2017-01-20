@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="297mm"
+   width="210mm"
+   viewBox="0 0 744.09448819 1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="logo1.svg">
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1301"
+     inkscape:window-height="744"
+     id="namedview6"
+     showgrid="false"
+     inkscape:zoom="1.1569609"
+     inkscape:cx="244.1259"
+     inkscape:cy="526.1811"
+     inkscape:window-x="65"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <metadata
+     id="metadata4">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <rect
+     style="fill:#483e37"
+     id="rect3148"
+     width="657.75775"
+     height="333.63272"
+     x="0"
+     y="359.16678" />
+  <path
+     style="fill:#1a1a1a;fill-opacity:1"
+     d="m 0.21099718,522.63733 0,-166.38419 328.44672282,0 328.4467,0 0,166.38419 0,166.38419 -328.4467,0 -328.44672282,0 0,-166.38419 z"
+     id="path3207"
+     inkscape:connector-curvature="0" />
+  <flowRoot
+     xml:space="preserve"
+     id="flowRoot3140"
+     style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:40px;line-height:125%;font-family:Roboto;-inkscape-font-specification:'Roboto Heavy';letter-spacing:0.01px;word-spacing:0px;fill:#2196f3;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     transform="translate(-62.232008,48.402672)"><flowRegion
+       id="flowRegion3142"><rect
+         id="rect3144"
+         width="592.93274"
+         height="226.45537"
+         x="142.61502"
+         y="430.04214"
+         style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:'Roboto Heavy';letter-spacing:0.01px;fill:#2196f3;fill-opacity:1;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none" /></flowRegion><flowPara
+       id="flowPara3146"
+       style="font-size:70px;letter-spacing:2.06999993px;fill:#2196f3;fill-opacity:1;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none"><flowSpan
+         style="fill:#ffffff;fill-opacity:1;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none"
+         id="flowSpan3217">MY</flowSpan><flowSpan
+         style="opacity:0;fill:#ffffff;fill-opacity:0;stroke:#039be5;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="flowSpan3215">KANJILIST</flowSpan></flowPara></flowRoot>  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="490.94138"
+     y="575.25012"
+     id="text3219"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan3221"
+       x="490.94138"
+       y="575.25012" /></text>
+</svg>
