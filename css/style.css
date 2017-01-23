@@ -1,10 +1,21 @@
 body {
 	background: #fff;
-	padding: 15px;
+	padding: 0;
 }
-img.brand {
-	clear: both;
-	display: block;
-	margin-bottom: 15px;
-	/*max-width: 200px;*/
+.container-fluid {
+	padding: 0;
+}
+
+.titlebar {
+	
+}
+.main-titlebar {
+	background-color: #fafafa;
+	border-bottom: 1px solid rgba(0,0,0,.12);
+	padding: 12px 20px;
+	text-align: left;
+}
+.main-titlebar img.brand-image {
+	height: 40px;
+	width: auto;
 }
