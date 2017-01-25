@@ -34,7 +34,7 @@
      showgrid="false"
      inkscape:zoom="1.1"
      inkscape:cx="191.04482"
-     inkscape:cy="213.28592"
+     inkscape:cy="140.55865"
      inkscape:window-x="65"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
@@ -672,4 +672,59 @@
        x="57.320255"
        y="786.58392"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:29.08448982px;font-family:'Noto Sans CJK JP';-inkscape-font-specification:'Noto Sans CJK JP Bold';fill:#339fd5;fill-opacity:1;stroke:#000000;stroke-opacity:0">字</tspan></text>
+  <g
+     id="g3480">
+    <flowRoot
+       transform="matrix(0.68970887,0,0,1,43.53583,820.68754)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:Roboto;-inkscape-font-specification:Roboto;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="flowRoot3336-0-0-7-8-93-0"
+       xml:space="preserve"><flowRegion
+         id="flowRegion3338-9-8-5-0-60-9"><rect
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto"
+           y="107.71181"
+           x="156.26064"
+           height="147.97409"
+           width="440.37088"
+           id="rect3340-0-1-60-5-6-3" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:40.63879776px;font-family:Roboto;-inkscape-font-specification:'Roboto Medium'"
+         id="flowPara3342-70-1-46-2-2-6"><flowSpan
+           id="flowSpan3344-2-9-9-8-6-0"
+           style="font-style:italic;font-variant:normal;font-weight:900;font-stretch:normal;font-size:40.63879776px;font-family:Roboto;-inkscape-font-specification:'Roboto Heavy Italic';fill:#5a5a5b;fill-opacity:1">M<flowSpan
+   id="flowSpan4050-5-1-62"
+   style="font-style:italic;font-variant:normal;font-weight:900;font-stretch:normal;font-size:34.61823654px;font-family:Roboto;-inkscape-font-specification:'Roboto Heavy Italic'">Y</flowSpan></flowSpan><flowSpan
+           id="flowSpan3358-0-9-6-7-8-6"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:40.63879776px;font-family:Roboto;-inkscape-font-specification:'Roboto Bold Italic';fill:#0087d2;fill-opacity:1">K</flowSpan><flowSpan
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:34.61823654px;font-family:Roboto;-inkscape-font-specification:'Roboto Bold Italic';fill:#0087d2;fill-opacity:1"
+           id="flowSpan3474">ANJI</flowSpan></flowPara></flowRoot>    <rect
+       y="936.28235"
+       x="108.07241"
+       height="36.168274"
+       width="36.168274"
+       id="rect3388-0-3-8-5-92-8"
+       style="opacity:1;fill:#0087d2;fill-opacity:1;fill-rule:nonzero;stroke:#0087d2;stroke-width:3.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <text
+       transform="scale(0.95768104,1.044189)"
+       sodipodi:linespacing="125%"
+       id="text3390-0-9-9-7-0-7"
+       y="925.01239"
+       x="117.12381"
+       style="font-style:normal;font-weight:normal;font-size:51.70576096px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:29.08448982px;font-family:'Noto Sans CJK JP';-inkscape-font-specification:'Noto Sans CJK JP Bold';fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-opacity:0.09803922"
+         y="925.01239"
+         x="117.12381"
+         id="tspan3392-4-9-6-9-2-9"
+         sodipodi:role="line">字</tspan></text>
+  </g>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="541.81818"
+     y="1098.0029"
+     id="text3476"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan3478"
+       x="541.81818"
+       y="1098.0029">t</tspan></text>
 </svg>
