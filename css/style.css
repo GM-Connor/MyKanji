@@ -1,5 +1,5 @@
 body {
-	background: url('../images/retina_wood.png');
+	/*background: url('../images/retina_wood.png');*/
 	padding: 0;
 }
 dl {
@@ -24,15 +24,26 @@ dl dt, dl dd {
 	border-radius: 0;
 	box-shadow: none;
 }
+.page-title {
+	background: #f0f0f0;
+	border-bottom: 1px solid #ccc;
+	box-shadow: 0 1px 2px 0px rgba(0,0,0,.15);
+	font-size: 16px;
+	/*font-variant: small-caps;*/
+	font-weight: bold;
+	margin: 0 0 25px;
+	padding: 10px 15px;
+}
 
 .titlebar {
 	background-color: #fff;
 	/*background: url('../images/geometry.png');*/
-	box-shadow: 0 1px 2px rgba(0,0,0,0.24);
-	margin-bottom: 25px;
+	/*box-shadow: 0 1px 2px rgba(0,0,0,0.24);*/
+	border-bottom: 1px solid #ddd;
+	/*margin-bottom: 25px;*/
 }
 .main-titlebar {
-	padding: 20px 20px;
+	padding: 20px 0;
 	text-align: left;
 }
 .main-titlebar img.brand-image {
@@ -42,15 +53,20 @@ dl dt, dl dd {
 
 .main-titlebar, .main-content {
 	margin: 0 auto;
-	max-width: 950px;
+	max-width: 900px;
 }
 
 .main-wrapper {
-	padding: 0 25px;
+	/*padding: 0 25px;*/
 }
 .main-content {
-
+	/*border: 1px solid red;*/
 }
+
+
+
+
+/* fuck this */
 .kanji-panel {
 	font-size: 17px;
 	text-align: left;
@@ -112,7 +128,7 @@ dl dt, dl dd {
 	color: #607f3a;
 }
 .kanji-panel ul {
-	font-size: 15px;
+	font-size: 16px;
 	list-style-type: none;
 	padding-left: 25px;
 
@@ -123,4 +139,28 @@ dl dt, dl dd {
 .kanji-panel a {
 	color: #333;
 	/*text-decoration: underline;*/
+}
+
+
+
+
+/* Groups page */
+.groups-page .group-name {
+	font-size: 16px;
+	font-weight: 600;
+	padding: 10px 15px;
+}
+.groups-page .group {
+	margin-bottom: 10px;
+}
+.groups-page .pie-percent svg {
+	height: auto;
+	width: 100%;
+}
+.groups-page .pie-percent text {
+	font-size: 48px;
+	font-weight: 600;
+}
+.groups-page .pie-percent text tspan {
+	font-size: 24px;
 }
