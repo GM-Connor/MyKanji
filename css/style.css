@@ -1,3 +1,4 @@
+/* defaults */
 body {
 	/*background: url('../images/retina_wood.png');*/
 	padding: 0;
@@ -10,6 +11,9 @@ dl {
 dl dt, dl dd {
 	display: inline-block;
 }
+
+
+/* general use */
 .container-fluid {
 	padding: 0;
 }
@@ -31,10 +35,43 @@ dl dt, dl dd {
 	font-size: 16px;
 	/*font-variant: small-caps;*/
 	font-weight: bold;
-	margin: 0 0 25px;
+	margin: 0 0 5px;
 	padding: 10px 15px;
 }
+.line-spacer {
+	border-bottom: 3px solid #bbb;
+	margin: 10px 0 0;
+}
+.arrow {
+	margin: 0 auto;
+	width: 50px;
+}
+.floating-shadow {
+	position: relative;
+}
+.floating-shadow:before, .floating-shadow:after{
+	position:absolute;
+	content:"";
+	bottom:12px;left:15px;top:80%;
+	width:45%;
+	background:#9B7468;
+	z-index:-1;
+	-webkit-box-shadow: 0 20px 15px #9B7468;
+	-moz-box-shadow: 0 20px 15px #9B7468;
+	box-shadow: 0 20px 15px #9B7468;
+	-webkit-transform: rotate(-6deg);
+	-moz-transform: rotate(-6deg);
+	transform: rotate(-6deg);
+}
+.floating-shadow:after{
+	-webkit-transform: rotate(6deg);
+	-moz-transform: rotate(6deg);
+	transform: rotate(6deg);
+	right: 15px;left: auto;
+}
 
+
+/* header */
 .titlebar {
 	background-color: #fff;
 	/*background: url('../images/geometry.png');*/
@@ -158,9 +195,12 @@ dl dt, dl dd {
 	width: 100%;
 }
 .groups-page .pie-percent text {
-	font-size: 48px;
+	font-size: 40px;
 	font-weight: 600;
 }
 .groups-page .pie-percent text tspan {
-	font-size: 24px;
+	font-size: 20px;
 }
+
+
+
