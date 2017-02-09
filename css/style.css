@@ -39,35 +39,8 @@ dl dt, dl dd {
 	padding: 10px 15px;
 }
 .line-spacer {
-	border-bottom: 3px solid #bbb;
+	border-bottom: 3px solid #ddd;
 	margin: 10px 0 0;
-}
-.arrow {
-	margin: 0 auto;
-	width: 50px;
-}
-.floating-shadow {
-	position: relative;
-}
-.floating-shadow:before, .floating-shadow:after{
-	position:absolute;
-	content:"";
-	bottom:12px;left:15px;top:80%;
-	width:45%;
-	background:#9B7468;
-	z-index:-1;
-	-webkit-box-shadow: 0 20px 15px #9B7468;
-	-moz-box-shadow: 0 20px 15px #9B7468;
-	box-shadow: 0 20px 15px #9B7468;
-	-webkit-transform: rotate(-6deg);
-	-moz-transform: rotate(-6deg);
-	transform: rotate(-6deg);
-}
-.floating-shadow:after{
-	-webkit-transform: rotate(6deg);
-	-moz-transform: rotate(6deg);
-	transform: rotate(6deg);
-	right: 15px;left: auto;
 }
 
 
@@ -147,7 +120,6 @@ dl dt, dl dd {
 	padding: 3px 5px;
 	width: 100%;
 }
-
 .kanji-panel .group.joyo {
 	background: #50c842;
 }
@@ -188,7 +160,15 @@ dl dt, dl dd {
 	padding: 10px 15px;
 }
 .groups-page .group {
-	margin-bottom: 10px;
+	border-bottom: 3px solid #ddd;
+	border-radius: 4px 4px 0 0;
+	cursor: pointer;
+}
+.groups-page .group.active {
+	border: 3px solid #ddd;
+	border-bottom: none;
+	border-color: #ddd;
+	padding-bottom: 6px;
 }
 .groups-page .pie-percent svg {
 	height: auto;
@@ -201,6 +181,50 @@ dl dt, dl dd {
 .groups-page .pie-percent text tspan {
 	font-size: 20px;
 }
+.groups-page .pie-percent .filling {
+	-webkit-transition: all .1s ease-in-out;
+	-o-transition: all .1s ease-in-out;
+	transition: all .1s ease-in-out;
+}
+
+.groups-page .child .children {
+	padding: 0;
+}
+.groups-page .child .group {
+	border: none;
+	border-right: 3px solid #ddd;
+	border-radius: 4px 0 0 4px;
+	cursor: pointer;
+	padding-right: 6px;
+}
+.groups-page .child li:nth-child(1) .group {
+	border-radius: 0 0 0 4px;
+	border-top: none!important;
+}
+.groups-page .child .group.active {
+	border: 3px solid #ddd;
+	border-right: none;
+	border-color: #ddd;
+	padding-right: 6px;
+}
+.groups-page .child .group.active .pie-percent, .groups-page .child .group.active .group-name {
+	margin-left: -6px;
+}
+.groups-page .child svg {
+	margin: 0 auto;
+	max-width: 100px;
+}
 
 
-
+/* Green */
+.groups-page .group.green .filling {fill: #4CAF50;}
+.groups-page .group.green:hover .filling {fill: #00C853;}
+/* Blue */
+.groups-page .group.blue .filling {fill: #3F51B5;}
+.groups-page .group.blue:hover .filling {fill: #304FFE;}
+/* Green */
+.groups-page .group.purple .filling {fill: #9C27B0;}
+.groups-page .group.purple:hover .filling {fill: #AA00FF;}
+/* Green */
+.groups-page .group.orange .filling {fill: #FF9800;}
+.groups-page .group.orange:hover .filling {fill: #FF6D00;}

@@ -19,62 +19,62 @@
 			</div>
 		</div>
 		<div class="main-wrapper groups-page">
-			<h1 class="page-title">Groups</h1>
+			<h1 class="page-title">Groups (probably remove and just have nav item highlighted blue like nhk) </h1>
 			<div class="main-content">
 				<div class="panel panel-default">
 					<div class="panel-body">
-						<div class="row">
+						<div class="row parent">
 							<div class="col-md-2 spacer"></div>
-							<div class="col-md-5 group floating-shadow">
+							<div class="col-md-5 group green">
 								<div class="group-name">Jōyō</div>
 								<div class="pie-percent">
 									<svg viewBox="0 0 200 200">
 										<circle cx="100" cy="100" r="99" fill="#eee" stroke="#ddd" stroke-width="1"></circle>
 										<!-- final x,y coord form: x = cx + r * cos(angleinradians),
 																   y = cy + r * sin(angleinradians) -->
-										<path fill="#3e9c34" d="M100,100 L100,1 A99,99 1 0,0 5.8,69.4 Z"></path>
+										<path class="filling" d="M100,100 L100,1 A99,99 1 0,0 5.8,69.4 Z"></path>
 										<circle cx="100" cy="100" r="70" fill="#fff" stroke="#ddd" stroke-width="1"></circle>
 										<!-- <circle cx="100" cy="100" r="68" fill="#50c842"></circle> -->
 										<text x="100" y="100" width="200" fill="#333" text-anchor="middle" dominant-baseline="central">20<tspan dominant-baseline="auto">%</tspan></text>
 									</svg>
 								</div>
 							</div>
-							<div class="col-md-5 group">
+							<div class="col-md-5 group blue active">
 								<div class="group-name">JLPT</div>
 								<div class="pie-percent">
 									<svg viewBox="0 0 200 200">
 										<circle cx="100" cy="100" r="99" fill="#eee" stroke="#ddd" stroke-width="1"></circle>
 										<!-- final x,y coord form: x = cx + r * cos(angleinradians),
 																   y = cy + r * sin(angleinradians) -->
-										<path fill="#517fc0" d="M100,100 L100,1 A99,99 1 0,0 4.1,75.4 Z"></path>
+										<path class="filling" d="M100,100 L100,1 A99,99 1 0,0 4.1,75.4 Z"></path>
 										<circle cx="100" cy="100" r="70" fill="#fff" stroke="#ddd" stroke-width="1"></circle>
 										<!-- <circle cx="100" cy="100" r="68" fill="#50c842"></circle> -->
 										<text x="100" y="100" width="200" fill="#333" text-anchor="middle" dominant-baseline="central">21<tspan dominant-baseline="auto">%</tspan></text>
 									</svg>
 								</div>
 							</div>
-							<div class="col-md-5 group">
+							<div class="col-md-5 group purple">
 								<div class="group-name">Grades</div>
 								<div class="pie-percent">
 									<svg viewBox="0 0 200 200">
 										<circle cx="100" cy="100" r="99" fill="#eee" stroke="#ddd" stroke-width="1"></circle>
 										<!-- final x,y coord form: x = cx + r * cos(angleinradians),
 																   y = cy + r * sin(angleinradians) -->
-										<path fill="#9f5ac2" d="M100,100 L100,1 A99,99 1 0,0 57.9,189.6 Z"></path>
+										<path class="filling" d="M100,100 L100,1 A99,99 1 0,0 57.9,189.6 Z"></path>
 										<circle cx="100" cy="100" r="70" fill="#fff" stroke="#ddd" stroke-width="1"></circle>
 										<!-- <circle cx="100" cy="100" r="68" fill="#50c842"></circle> -->
 										<text x="100" y="100" width="200" fill="#333" text-anchor="middle" dominant-baseline="central">43<tspan dominant-baseline="auto">%</tspan></text>
 									</svg>
 								</div>
 							</div>
-							<div class="col-md-5 group">
+							<div class="col-md-5 group orange">
 								<div class="group-name">Genki</div>
 								<div class="pie-percent">
 									<svg viewBox="0 0 200 200">
 										<circle cx="100" cy="100" r="99" fill="#eee" stroke="#ddd" stroke-width="1"></circle>
 										<!-- final x,y coord form: x = cx + r * cos(angleinradians),
 																   y = cy + r * sin(angleinradians) -->
-										<path fill="#f39c12" d="M100,100 L100,1 A99,99 1 1,0 142.2,10.4 Z"></path>
+										<path class="filling" d="M100,100 L100,1 A99,99 1 1,0 142.2,10.4 Z"></path>
 										<circle cx="100" cy="100" r="70" fill="#fff" stroke="#ddd" stroke-width="1"></circle>
 										<!-- <circle cx="100" cy="100" r="68" fill="#50c842"></circle> -->
 										<text x="100" y="100" width="200" fill="#333" text-anchor="middle" dominant-baseline="central">93<tspan dominant-baseline="auto">%</tspan></text>
@@ -83,23 +83,93 @@
 							</div>
 							<div class="col-md-2 spacer"></div>
 						</div>
-						<div class="row">
-							<div class="col-md-2 spacer"></div>
-							<div class="col-md-20 line-spacer"></div>	
-							<div class="col-md-2 spacer"></div>
-						</div>
-						<div class="row">
-							<div class="col-md-2 spacer"></div>
-							<div class="col-md-5">
-								<div class="arrow">
-									<svg viewBox="0 0 50 50">
-										<path fill="#bbb" d="M0,0 L50,0 L25,25 Z"></path>
-									</svg>
-								</div>
+						<div class="row child">
+							<div class="col-md-2 spacer"></div>	
+							<div class="col-md-5 children">
+								<ul class="nav nav-pills nav-stacked">
+									<li role="presentation">
+										<div class="col-md-24 group blue active">
+											turn this into horizontal pills with no svg pie percent visual. e,g col-md-4
+											<div class="group-name">JLPT N5</div>
+											<div class="pie-percent">
+												<svg viewBox="0 0 200 200">
+													<circle cx="100" cy="100" r="99" fill="#eee" stroke="#ddd" stroke-width="1"></circle>
+													<!-- final x,y coord form: x = cx + r * cos(angleinradians),
+																			   y = cy + r * sin(angleinradians) -->
+													<path class="filling" d="M100,100 L100,1 A99,99 1 1,0 142.2,10.4 Z"></path>
+													<circle cx="100" cy="100" r="70" fill="#fff" stroke="#ddd" stroke-width="1"></circle>
+													<!-- <circle cx="100" cy="100" r="68" fill="#50c842"></circle> -->
+													<text x="100" y="100" width="200" fill="#333" text-anchor="middle" dominant-baseline="central">93<tspan dominant-baseline="auto">%</tspan></text>
+												</svg>
+											</div>
+										</div>
+									</li>
+									<li role="presentation">
+										<div class="col-md-24 group blue">
+											<div class="group-name">JLPT N4</div>
+											<div class="pie-percent">
+												<svg viewBox="0 0 200 200">
+													<circle cx="100" cy="100" r="99" fill="#eee" stroke="#ddd" stroke-width="1"></circle>
+													<!-- final x,y coord form: x = cx + r * cos(angleinradians),
+																			   y = cy + r * sin(angleinradians) -->
+													<path class="filling" d="M100,100 L100,1 A99,99 1 1,0 142.2,10.4 Z"></path>
+													<circle cx="100" cy="100" r="70" fill="#fff" stroke="#ddd" stroke-width="1"></circle>
+													<!-- <circle cx="100" cy="100" r="68" fill="#50c842"></circle> -->
+													<text x="100" y="100" width="200" fill="#333" text-anchor="middle" dominant-baseline="central">93<tspan dominant-baseline="auto">%</tspan></text>
+												</svg>
+											</div>
+										</div>
+									</li>
+									<li role="presentation">
+										<div class="col-md-24 group blue">
+											<div class="group-name">JLPT N3</div>
+											<div class="pie-percent">
+												<svg viewBox="0 0 200 200">
+													<circle cx="100" cy="100" r="99" fill="#eee" stroke="#ddd" stroke-width="1"></circle>
+													<!-- final x,y coord form: x = cx + r * cos(angleinradians),
+																			   y = cy + r * sin(angleinradians) -->
+													<path class="filling" d="M100,100 L100,1 A99,99 1 1,0 142.2,10.4 Z"></path>
+													<circle cx="100" cy="100" r="70" fill="#fff" stroke="#ddd" stroke-width="1"></circle>
+													<!-- <circle cx="100" cy="100" r="68" fill="#50c842"></circle> -->
+													<text x="100" y="100" width="200" fill="#333" text-anchor="middle" dominant-baseline="central">93<tspan dominant-baseline="auto">%</tspan></text>
+												</svg>
+											</div>
+										</div>
+									</li>
+									<li role="presentation">
+										<div class="col-md-24 group blue">
+											<div class="group-name">JLPT N2</div>
+											<div class="pie-percent">
+												<svg viewBox="0 0 200 200">
+													<circle cx="100" cy="100" r="99" fill="#eee" stroke="#ddd" stroke-width="1"></circle>
+													<!-- final x,y coord form: x = cx + r * cos(angleinradians),
+																			   y = cy + r * sin(angleinradians) -->
+													<path class="filling" d="M100,100 L100,1 A99,99 1 1,0 142.2,10.4 Z"></path>
+													<circle cx="100" cy="100" r="70" fill="#fff" stroke="#ddd" stroke-width="1"></circle>
+													<!-- <circle cx="100" cy="100" r="68" fill="#50c842"></circle> -->
+													<text x="100" y="100" width="200" fill="#333" text-anchor="middle" dominant-baseline="central">93<tspan dominant-baseline="auto">%</tspan></text>
+												</svg>
+											</div>
+										</div>
+									</li>
+									<li role="presentation">
+										<div class="col-md-24 group blue">
+											<div class="group-name">JLPT N1</div>
+											<div class="pie-percent">
+												<svg viewBox="0 0 200 200">
+													<circle cx="100" cy="100" r="99" fill="#eee" stroke="#ddd" stroke-width="1"></circle>
+													<!-- final x,y coord form: x = cx + r * cos(angleinradians),
+																			   y = cy + r * sin(angleinradians) -->
+													<path class="filling" d="M100,100 L100,1 A99,99 1 1,0 142.2,10.4 Z"></path>
+													<circle cx="100" cy="100" r="70" fill="#fff" stroke="#ddd" stroke-width="1"></circle>
+													<!-- <circle cx="100" cy="100" r="68" fill="#50c842"></circle> -->
+													<text x="100" y="100" width="200" fill="#333" text-anchor="middle" dominant-baseline="central">93<tspan dominant-baseline="auto">%</tspan></text>
+												</svg>
+											</div>
+										</div>
+									</li>
+								</ul>
 							</div>
-							<div class="col-md-5"></div>
-							<div class="col-md-5"></div>
-							<div class="col-md-5"></div>
 							<div class="col-md-2 spacer"></div>
 						</div>
 					</div>
