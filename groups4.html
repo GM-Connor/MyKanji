@@ -1,0 +1,109 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="New site">
+	<title>MyKanji!</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="container-fluid text-center">
+		<div class="titlebar">
+			<div class="main-titlebar">
+				<div class="brand">
+					<img class="brand-image" src="mockups/brand2.png">
+				</div>
+			</div>
+		</div>
+		<div class="main-wrapper groups-page">
+			<h1 class="page-title">Groups (probably remove and just have nav item highlighted blue like nhk) </h1>
+			<div class="main-content">
+				<div class="panel panel-default">
+					<div class="panel-body">
+						<div class="row parent">
+							<div class="col-md-2 spacer"></div>
+							<div class="col-md-5 group green">
+								<div class="group-name">Jōyō</div>
+								<div class="pie-percent">
+									<svg viewBox="0 0 200 200">
+										<circle cx="100" cy="100" r="99" fill="#eee" stroke="#ddd" stroke-width="1"></circle>
+										<!-- final x,y coord form: x = cx + r * cos(angleinradians),
+																   y = cy + r * sin(angleinradians) -->
+										<path class="filling" d="M100,100 L100,1 A99,99 1 0,0 5.8,69.4 Z"></path>
+										<circle class="border" cx="100" cy="100" r="70" fill="#fff" stroke="#ddd" stroke-width="1"></circle>
+										<!-- <circle cx="100" cy="100" r="68" fill="#50c842"></circle> -->
+										<text x="100" y="100" width="200" fill="#333" text-anchor="middle" dominant-baseline="central">20<tspan dominant-baseline="auto">%</tspan></text>
+									</svg>
+								</div>
+							</div>
+							<div class="col-md-5 group blue active">
+								<div class="group-name">JLPT</div>
+								<div class="pie-percent">
+									<svg viewBox="0 0 200 200">
+										<circle cx="100" cy="100" r="99" fill="#eee" stroke="#ddd" stroke-width="1"></circle>
+										<!-- final x,y coord form: x = cx + r * cos(angleinradians),
+																   y = cy + r * sin(angleinradians) -->
+										<path class="filling" d="M100,100 L100,1 A99,99 1 0,0 4.1,75.4 Z"></path>
+										<circle class="border" cx="100" cy="100" r="70" fill="#fff" stroke="#ddd" stroke-width="1"></circle>
+										<!-- <circle cx="100" cy="100" r="68" fill="#50c842"></circle> -->
+										<text x="100" y="100" width="200" fill="#333" text-anchor="middle" dominant-baseline="central">21<tspan dominant-baseline="auto">%</tspan></text>
+									</svg>
+								</div>
+							</div>
+							<div class="col-md-5 group purple">
+								<div class="group-name">Grades</div>
+								<div class="pie-percent">
+									<svg viewBox="0 0 200 200">
+										<circle cx="100" cy="100" r="99" fill="#eee" stroke="#ddd" stroke-width="1"></circle>
+										<!-- final x,y coord form: x = cx + r * cos(angleinradians),
+																   y = cy + r * sin(angleinradians) -->
+										<path class="filling" d="M100,100 L100,1 A99,99 1 0,0 57.9,189.6 Z"></path>
+										<circle class="border" cx="100" cy="100" r="70" fill="#fff" stroke="#ddd" stroke-width="1"></circle>
+										<!-- <circle cx="100" cy="100" r="68" fill="#50c842"></circle> -->
+										<text x="100" y="100" width="200" fill="#333" text-anchor="middle" dominant-baseline="central">43<tspan dominant-baseline="auto">%</tspan></text>
+									</svg>
+								</div>
+							</div>
+							<div class="col-md-5 group orange">
+								<div class="group-name">Genki</div>
+								<div class="pie-percent">
+									<svg viewBox="0 0 200 200">
+										<circle cx="100" cy="100" r="99" fill="#eee" stroke="#ddd" stroke-width="1"></circle>
+										<!-- final x,y coord form: x = cx + r * cos(angleinradians),
+																   y = cy + r * sin(angleinradians) -->
+										<path class="filling" d="M100,100 L100,1 A99,99 1 1,0 142.2,10.4 Z"></path>
+										<circle class="border" cx="100" cy="100" r="70" fill="#fff" stroke="#ddd" stroke-width="1"></circle>
+										<!-- <circle cx="100" cy="100" r="68" fill="#50c842"></circle> -->
+										<text x="100" y="100" width="200" fill="#333" text-anchor="middle" dominant-baseline="central">93<tspan dominant-baseline="auto">%</tspan></text>
+									</svg>
+								</div>
+							</div>
+							<div class="col-md-2 spacer"></div>
+						</div>
+						<div class="row child">
+							<div class="col-md-2 spacer"></div>	
+							<div class="col-md-20 children">
+								<ul class="nav nav-pills" role="tablist">
+									<li role="presentation" class="active"><a href="#">JLPT5</a></li>
+									<li role="presentation"><a href="#">JLPT4</a></li>
+									<li role="presentation"><a href="#">JLPT3</a></li>
+									<li role="presentation"><a href="#">JLPT2</a></li>
+									<li role="presentation"><a href="#">JLPT1</a></li>
+								</ul>
+
+							</div>
+							<div class="col-md-2 spacer"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/jquery-2.1.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

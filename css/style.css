@@ -181,7 +181,7 @@ dl dt, dl dd {
 .groups-page .pie-percent text tspan {
 	font-size: 20px;
 }
-.groups-page .pie-percent .filling {
+.groups-page .pie-percent .filling, .groups-page .pie-percent .border {
 	-webkit-transition: all .1s ease-in-out;
 	-o-transition: all .1s ease-in-out;
 	transition: all .1s ease-in-out;
@@ -216,15 +216,26 @@ dl dt, dl dd {
 }
 
 
+
+/* Default */
+.groups-page .group:hover .border, .groups-page .group.active .border {stroke-width: 7;}
 /* Green */
 .groups-page .group.green .filling {fill: #4CAF50;}
+.groups-page .group.green.active .border {stroke: #4CAF50;}
 .groups-page .group.green:hover .filling {fill: #00C853;}
+.groups-page .group.green:hover .border {stroke: #00C853;}
 /* Blue */
+.groups-page .group.blue.active .border {stroke: #3F51B5;}
 .groups-page .group.blue .filling {fill: #3F51B5;}
 .groups-page .group.blue:hover .filling {fill: #304FFE;}
-/* Green */
+.groups-page .group.blue:hover .border {stroke: #304FFE;}
+/* Purple */
+.groups-page .group.purple.active .border {stroke: #9C27B0;}
 .groups-page .group.purple .filling {fill: #9C27B0;}
 .groups-page .group.purple:hover .filling {fill: #AA00FF;}
-/* Green */
+.groups-page .group.purple:hover .border {stroke: #AA00FF;}
+/* Orange */
+.groups-page .group.orange.active .border {stroke: #FF9800;}
 .groups-page .group.orange .filling {fill: #FF9800;}
 .groups-page .group.orange:hover .filling {fill: #FF6D00;}
+.groups-page .group.orange:hover .border {stroke: #FF6D00;}
