@@ -1,11 +1,11 @@
 /* Listeners */
 
 //Groups viewer
-$('.groups-page .parent > .group').click(function() {
-	$('.groups-page .parent > .group.active').removeClass('active');
+$('.groups-page .group').click(function() {
+	$('.groups-page .group.active').removeClass('active');
 	$(this).addClass('active');
 });
-$('.groups-page .child .group').click(function() {
-	$('.groups-page .child .group.active').removeClass('active');
+$('.groups-page .children .panel-heading li').click(function() {
+	$('.groups-page .children .panel-heading li.active').removeClass('active');
 	$(this).addClass('active');
 });

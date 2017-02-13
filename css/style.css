@@ -1,7 +1,11 @@
 /* defaults */
 body {
 	/*background: url('../images/retina_wood.png');*/
+	font-family: 'Roboto',"Helvetica Neue",Helvetica,Arial,sans-serif;	/* localize roboto */
 	padding: 0;
+}
+a {
+	cursor: pointer;
 }
 dl {
 	font-size: 16px;
@@ -17,7 +21,7 @@ dl dt, dl dd {
 .container-fluid {
 	padding: 0;
 }
-.panel {
+.panel 	{
 	background: none;
 }
 .panel-body {
@@ -154,21 +158,25 @@ dl dt, dl dd {
 
 
 /* Groups page */
+.groups-page .parent {
+	margin-bottom: 15px;
+}
 .groups-page .group-name {
 	font-size: 16px;
 	font-weight: 600;
 	padding: 10px 15px;
 }
 .groups-page .group {
-	border-bottom: 3px solid #ddd;
-	border-radius: 4px 4px 0 0;
 	cursor: pointer;
+	padding: 0 5px;
 }
-.groups-page .group.active {
-	border: 3px solid #ddd;
-	border-bottom: none;
+.groups-page .group.active > div, .groups-page .group:hover > div {
 	border-color: #ddd;
-	padding-bottom: 6px;
+}
+.groups-page .group > div {
+	border: 3px solid transparent;
+	border-radius: 4px;
+	padding: 0 15px 5px;
 }
 .groups-page .pie-percent svg {
 	height: auto;
@@ -181,61 +189,46 @@ dl dt, dl dd {
 .groups-page .pie-percent text tspan {
 	font-size: 20px;
 }
-.groups-page .pie-percent .filling, .groups-page .pie-percent .border {
+.groups-page .pie-percent .filling, .groups-page .pie-percent .border, .groups-page .children .panel-heading li a {
 	-webkit-transition: all .1s ease-in-out;
 	-o-transition: all .1s ease-in-out;
 	transition: all .1s ease-in-out;
 }
+.groups-page .children {
+	padding: 0 5px;
+}
+.groups-page .children .panel-heading {
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+	/*border-radius: 4px;*/
+}
+.groups-page .children .panel-heading li {
+	padding: 0 5px;
+}
 
-.groups-page .child .children {
-	padding: 0;
-}
-.groups-page .child .group {
-	border: none;
-	border-right: 3px solid #ddd;
-	border-radius: 4px 0 0 4px;
-	cursor: pointer;
-	padding-right: 6px;
-}
-.groups-page .child li:nth-child(1) .group {
-	border-radius: 0 0 0 4px;
-	border-top: none!important;
-}
-.groups-page .child .group.active {
-	border: 3px solid #ddd;
-	border-right: none;
-	border-color: #ddd;
-	padding-right: 6px;
-}
-.groups-page .child .group.active .pie-percent, .groups-page .child .group.active .group-name {
-	margin-left: -6px;
-}
-.groups-page .child svg {
-	margin: 0 auto;
-	max-width: 100px;
-}
+
 
 
 
 /* Default */
-.groups-page .group:hover .border, .groups-page .group.active .border {stroke-width: 7;}
+/*.groups-page .group:hover .border, .groups-page .group.active .border {stroke-width: 7;}*/
 /* Green */
+/*.groups-page .group.green.active .border {stroke: #4CAF50;}*/
 .groups-page .group.green .filling {fill: #4CAF50;}
-.groups-page .group.green.active .border {stroke: #4CAF50;}
-.groups-page .group.green:hover .filling {fill: #00C853;}
-.groups-page .group.green:hover .border {stroke: #00C853;}
+/*.groups-page .group.green:hover .filling {fill: #00C853;}*/
+/*.groups-page .group.green:hover .border {stroke: #00C853;}*/
 /* Blue */
-.groups-page .group.blue.active .border {stroke: #3F51B5;}
+/*.groups-page .group.blue.active .border {stroke: #3F51B5;}*/
 .groups-page .group.blue .filling {fill: #3F51B5;}
-.groups-page .group.blue:hover .filling {fill: #304FFE;}
-.groups-page .group.blue:hover .border {stroke: #304FFE;}
+/*.groups-page .group.blue:hover .filling {fill: #304FFE;}*/
+/*.groups-page .group.blue:hover .border {stroke: #304FFE;}*/
 /* Purple */
-.groups-page .group.purple.active .border {stroke: #9C27B0;}
+/*.groups-page .group.purple.active .border {stroke: #9C27B0;}*/
 .groups-page .group.purple .filling {fill: #9C27B0;}
-.groups-page .group.purple:hover .filling {fill: #AA00FF;}
-.groups-page .group.purple:hover .border {stroke: #AA00FF;}
+/*.groups-page .group.purple:hover .filling {fill: #AA00FF;}*/
+/*.groups-page .group.purple:hover .border {stroke: #AA00FF;}*/
 /* Orange */
-.groups-page .group.orange.active .border {stroke: #FF9800;}
+/*.groups-page .group.orange.active .border {stroke: #FF9800;}*/
 .groups-page .group.orange .filling {fill: #FF9800;}
-.groups-page .group.orange:hover .filling {fill: #FF6D00;}
-.groups-page .group.orange:hover .border {stroke: #FF6D00;}
+/*.groups-page .group.orange:hover .filling {fill: #FF6D00;}*/
+/*.groups-page .group.orange:hover .border {stroke: #FF6D00;}*/
