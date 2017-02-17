@@ -41,13 +41,12 @@ dl dt, dl dd {
 	font-weight: bold;
 	margin: 0 0 5px;
 	padding: 10px 15px;
+
+	display: none;
 }
 .line-spacer {
 	border-bottom: 3px solid #ddd;
 	margin: 10px 0 0;
-}
-.old, .old a {
-	color: #777!important;
 }
 
 
@@ -58,6 +57,8 @@ dl dt, dl dd {
 	/*box-shadow: 0 1px 2px rgba(0,0,0,0.24);*/
 	border-bottom: 1px solid #ddd;
 	/*margin-bottom: 25px;*/
+
+	border-bottom: 7px solid #0087d2;
 }
 .main-titlebar {
 	padding: 20px 0;
@@ -211,29 +212,65 @@ dl dt, dl dd {
 .groups-page .children .panel-heading li.active a {
 	background: #0087d2;
 }
+.groups-page .children .options ul {
+	margin-bottom: 0;
+	margin-top: 10px;
+	padding: 0 15px;
+	text-align: left;
+}
+.groups-page .children .options .kanji-tools ul {
+	text-align: right;
+}
+.groups-page .children .options .glyphicon {
+	padding-right: 5px;
+}
 .groups-page .children .panel-body {
-	background: repeating-linear-gradient(180deg, #fff, #fff 32px, #EDF9FF 32px, #EDF9FF 64px);
+	background: #ddd;
 	border: 8px solid #ddd;
 	border-radius: 4px;
-	margin-top: 15px;
+	margin: 10px auto 0;
 	padding: 0;
+	width: 99%;
 }
 .groups-page .kanji-list {
+	background: repeating-linear-gradient(180deg, #fff, #fff 34px, #EDF9FF 34px, #EDF9FF 68px);
+	border-radius: 4px;
 	list-style-type: none;
 	margin: 0 auto;
-	padding: 0 5px;
-	width: 99%;
+	/*padding: 0 5px;*/
+	padding: 0 0px;
+	/*width: 99%;*/
 }
 .groups-page .kanji-list:before,.groups-page .kanji-list:after{content:" ";display:table}
 .groups-page .kanji-list:after{clear:both;}
 .groups-page .kanji-list li {
 	float: left;
 	font-size: 22px;
-	line-height: 32px;
-	width: 32px;
+	line-height: 34px;
+	width: 34px;
+}
+.groups-page .kanji-list li:first-child {
+	border-radius: 4px 0 0 0;
+	overflow: hidden;
 }
 .groups-page .kanji-list a {
 	color: #333;
+	display: block;
+	height: 100%;
+	text-decoration: none;
+	width: 100%;
+}
+.groups-page .kanji-list a:hover {
+	background: rgba(0,0,0,0.2);
+}
+.groups-page .kanji-list .old {
+	opacity: .25;
+}
+.groups-page .addallkanji {
+	cursor: pointer;
+}
+.groups-page .addallkanji:hover {
+	color: #337ab7;
 }
 
 
