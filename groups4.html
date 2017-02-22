@@ -25,7 +25,6 @@
 			</div>
 			<nav class="navbar navbar-default">
 				<div class="container-fluid">
-					<!-- Brand and toggle get grouped for better mobile display -->
 					<div class="navbar-header">
 						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
 							<span class="sr-only">Toggle navigation</span>
@@ -33,40 +32,60 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand" href="#">Brand</a>
+						<a class="navbar-brand" href="#">
+							<img src="mockups/test.png">
+						</a>
 					</div>
 
-					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav">
 							<li><a href="#">Dashboard</a></li>
 							<li class="active"><a href="#">Groups</a></li>
+							<li><a href="#">My Kanji</a></li>
 						</ul>
-						<form class="navbar-form navbar-right">
+						<form class="navbar-form navbar-right connect">
 							<div class="form-group">
 								<input type="text" class="form-control" placeholder="Search">
 							</div>
-							<button type="submit" class="btn btn-default">Submit</button>
+							<button type="submit" class="btn btn-default">
+								<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+							</button>
 						</form>
 						<ul class="nav navbar-nav navbar-right">
-							<li><a href="#">Link</a></li>
+							<!-- <li><a href="#">Account</a></li> -->
 							<li class="dropdown">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Account <span class="caret"></span></a>
 								<ul class="dropdown-menu">
-									<li><a href="#">Action</a></li>
-									<li><a href="#">Another action</a></li>
-									<li><a href="#">Something else here</a></li>
+									<li><a href="#"><span class="glyphicon glyphicon-cog" aria-hidden="true"></span> Settings</a></li>
 									<li role="separator" class="divider"></li>
-									<li><a href="#">Separated link</a></li>
+									<li><a href="#"><span class="glyphicon glyphicon-file" aria-hidden="true"></span> Export Kanji</a></li>
+									<li role="separator" class="divider"></li>
+									<li><a href="#"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> History</a></li>
+									<!-- <li><a href="#">Something else here</a></li> -->
+									<li role="separator" class="divider"></li>
+									<li><a href="#"><span class="glyphicon glyphicon-log-out" aria-hidden="true"></span> Logout</a></li>
 								</ul>
 							</li>
 						</ul>
-					</div><!-- /.navbar-collapse -->
-				</div><!-- /.container-fluid -->
+					</div>
+				</div>
 			</nav>
 		</div>
 		<div class="main-wrapper groups-page">
-			<h1 class="page-title">Groups (probably remove and just have nav item highlighted blue like nhk) </h1>
+			<div class="koukoku">
+				<div class="koukoku-wrapper">
+					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+					<!-- MyKanji -->
+					<ins class="adsbygoogle"
+					     style="display:block"
+					     data-ad-client="ca-pub-9961910162191815"
+					     data-ad-slot="3358293033"
+					     data-ad-format="auto"></ins>
+					<script>
+					(adsbygoogle = window.adsbygoogle || []).push({});
+					</script>
+				</div>
+			</div>
 			<div class="main-content">
 				<div class="panel panel-default">
 					<div class="panel-body">
@@ -154,6 +173,16 @@
 												<ul class="list-inline">
 													<li>
 														<input type="text" class="form-control" id="kanjiFilter" placeholder="Filter...">
+													</li>
+													<li class="dropdown sort-by">
+														<span class="">Sort by: </span>
+														<span class="active dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Learned</span>
+														<span class="caret"></span>
+														<ul class="dropdown-menu">
+															<li>Learned</li>
+															<li role="separator" class="divider"></li>
+															<li>Strokes</li>
+														</ul>
 													</li>
 												</ul>
 											</div>
@@ -379,6 +408,31 @@
 								</div>
 							</div>
 						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="footer-wrapper">
+				<div class="row">
+					<div class="col-md-8 left">
+						<p>Choose your language:</p>
+						<ul class="list-inline">
+							<li class="active"><a href="#">English</a></li>
+							<li role="separator" class="divider"></li>
+							<li class="old"><a href="#">日本語</a></li>
+						</ul>
+					</div>
+					<div class="col-md-8 patreon">
+						<a href="https://www.patreon.com/Japanese" target="_blank"><img src="images/patreon.png" alt="Support us on Patreon" title="Support us on Patreon"></a>
+					</div>
+					<div class="col-md-8 right">
+						<p>Other sites:</p>
+						<ul class="list-inline">
+							<li class="oldish"><a href="http://kanjisheets.com/" target="_blank">KanjiSheets</a></li>
+							<li role="separator" class="divider"></li>
+							<li class="oldish"><a href="#" target="_blank">JapaneseNumbersGame</a></li>
+						</ul>
 					</div>
 				</div>
 			</div>

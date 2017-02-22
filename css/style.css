@@ -24,6 +24,7 @@ dl dt, dl dd {
 }
 .panel 	{
 	background: none;
+	margin-bottom: 0;
 }
 .panel-body {
 	background: #fff;
@@ -50,6 +51,8 @@ dl dt, dl dd {
 	margin: 10px 0 0;
 }
 .right {text-align: right !important;}
+.left {text-align: left !important;}
+
 
 
 /* header */
@@ -80,25 +83,97 @@ dl dt, dl dd {
 .navbar form {
 	padding-right: 0;
 }
+.navbar form.connect input {
+	border-right: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.navbar form.connect button {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-left: -5px;
+    padding-left: 11px;
+}
+.navbar-brand {
+	padding: 10px 0 10px 15px
+}
+.navbar-brand img {
+	height: 100%;
+	width: auto;
+}
+.navbar .dropdown .glyphicon {
+	margin-right: 5px;
+}
 
-.main-titlebar, .main-content, .navbar .container-fluid {
+.main-titlebar, .main-content, .navbar .container-fluid, .footer .footer-wrapper, .koukoku {
 	margin: 0 auto;
 	max-width: 850px;
 }
-.navbar .container-fluid {
+.navbar .container-fluid, .footer .footer-wrapper, .koukoku {
 	max-width: 880px;
 	padding: 0 15px;
 }
 
+
 .main-wrapper {
 	/*padding: 0 25px;*/
+}
+.koukoku .koukoku-wrapper {
+	/*background: #fff;
+	border: 1px solid #e1e8ed;*/
+	margin-top: 15px;
 }
 .main-content {
 	background: #fff;
 	border: 1px solid #e1e8ed;
+	border-radius: 4px;
 	margin-bottom: 15px;
 	margin-top: 15px;
 	padding: 0 30px;
+}
+
+
+/* Footer */
+.footer {
+	background: #fff;
+	border-top: 1px solid #e1e8ed;
+	color: #444;
+	font-size: 12px;
+	padding: 15px 0;
+}
+.footer a {
+	color: #444;
+}
+.footer p {
+	margin-bottom: 5px;
+}
+.footer ul {
+	margin: 0;
+}
+.footer li {
+	padding: 0;
+}
+.footer .divider {
+	background: #444;
+	height: 10px;
+	margin: 0 5px;
+	width: 1px;
+}
+.footer .old {
+	opacity: .5;
+}
+.footer .old:hover {
+	opacity: 1;
+}
+.footer .oldish {
+	opacity: .75;
+}
+.footer .oldish:hover {
+	opacity: 1;
+}
+.footer .patreon img {
+	max-height: 40px;
+	width: auto;
 }
 
 
@@ -291,6 +366,27 @@ dl dt, dl dd {
 }
 .groups-page .addallkanji:hover {
 	color: #337ab7;
+}
+.groups-page .sort-by .active {
+	border-bottom: 1px solid #333;
+	margin-left: 2px;
+}
+.groups-page .sort-by .dropdown-menu {
+	left: 35%;
+	min-width: 50px;
+	padding: 3px 0!important;
+}
+.groups-page .sort-by .dropdown-menu .divider {
+	margin-bottom: 3px;
+	margin-top: 3px;
+}
+.groups-page .sort-by .dropdown-menu li:nth-child(odd) {
+	cursor: pointer;
+	padding: 0 15px;
+	text-align: left;
+}
+.groups-page .sort-by .dropdown-menu li:nth-child(odd):hover {
+	background: #eee;
 }
 
 
