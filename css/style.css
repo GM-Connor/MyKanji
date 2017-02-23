@@ -1,4 +1,7 @@
 /* defaults */
+html, body {
+	height: 100%;
+}
 body {
 	/*background: url('../images/retina_wood.png');*/
 	background: #f5f8fa;
@@ -21,6 +24,9 @@ dl dt, dl dd {
 /* general use */
 .container-fluid {
 	padding: 0;
+	min-height: 100%;
+	position: relative;
+	padding-bottom: 71px;	/* height of footer */
 }
 .panel 	{
 	background: none;
@@ -140,6 +146,10 @@ dl dt, dl dd {
 	color: #444;
 	font-size: 12px;
 	padding: 15px 0;
+	height: 71px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
 }
 .footer a {
 	color: #444;
@@ -389,6 +399,16 @@ dl dt, dl dd {
 	background: #eee;
 }
 
+.home-page {
+	background: url('../mockups/banner1.png');
+	background-position: center 80px;
+}
+.home-page .titlebar {
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.home-page .footer {
+	box-shadow: 0 -19px 38px rgba(0,0,0,0.30), 0 -15px 12px rgba(0,0,0,0.22);
+}
 
 
 
