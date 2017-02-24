@@ -409,7 +409,66 @@ dl dt, dl dd {
 .home-page .footer {
 	box-shadow: 0 -19px 38px rgba(0,0,0,0.30), 0 -15px 12px rgba(0,0,0,0.22);
 }
-
+.home-page .main-content {
+	background: none;
+    border: none;
+    margin-top: 50px;
+}
+.home-page h1 {
+	background: #263238;
+	border-radius: 4px;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	color: #fff;
+	display: inline-block;
+	font-family: 'Roboto Slab', 'Roboto', sans-serif;
+	margin: 0;
+	padding: 12px 24px;
+}
+.home-page .feature .panel-body {
+	background: #263238;
+	border-radius: 4px;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	color: #fff;
+	margin-top: 30px;
+	padding: 40px;
+}
+.home-page h2 {
+	font-family: 'Roboto Slab', 'Roboto', sans-serif;
+	margin-top: 0;
+	text-align: left;
+}
+.home-page .feature ul {
+	font-size: 16px;
+	text-align: left;
+}
+.get-started a {
+	border: 1px solid rgba(0,0,0,.12);
+	font-size: 16px;
+	font-weight: 500;
+	margin-top: 20px;
+	padding: 12px 24px;
+	width: 100%;
+}
+.get-started a:hover {
+	border: 1px solid rgba(0,0,0,.12);
+}
+.get-started .signup {
+	background: hsl(200, 74%, 45%);
+	box-shadow: 0 3px hsl(200, 74%, 25%);
+	color: #fff;
+}
+.get-started .signup:hover {
+	background: hsl(200, 74%, 50%);
+	box-shadow: 0 3px hsl(200, 74%, 30%);
+}
+.get-started .login {
+	background: hsl(0, 0%, 95%);
+	box-shadow: 0 3px hsl(0, 0%, 75%);
+}
+.get-started .login:hover {
+	background: hsl(0, 0%, 100%);
+	box-shadow: 0 3px hsl(0, 0%, 80%);
+}
 
 
 /* Default */
