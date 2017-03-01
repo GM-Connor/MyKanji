@@ -21,6 +21,7 @@ dl dt, dl dd {
 }
 
 
+
 /* general use */
 .container-fluid {
 	padding: 0;
@@ -58,6 +59,12 @@ dl dt, dl dd {
 }
 .right {text-align: right !important;}
 .left {text-align: left !important;}
+.break {
+	background: none;
+	display: table;
+	max-height: 1px;
+	overflow: hidden;
+}
 
 
 
@@ -88,6 +95,11 @@ dl dt, dl dd {
 }
 .navbar form {
 	padding-right: 0;
+}
+.navbar form.connect .form-group {
+	display: inline-block !important;
+	margin-bottom: 0 !important;
+	vertical-align: middle !important;
 }
 .navbar form.connect input {
 	border-right: none;
@@ -123,6 +135,7 @@ dl dt, dl dd {
 
 .main-wrapper {
 	/*padding: 0 25px;*/
+	margin: 0 auto;
 }
 .koukoku .koukoku-wrapper {
 	/*background: #fff;
@@ -313,9 +326,12 @@ dl dt, dl dd {
 	/*border-radius: 4px;*/
 }
 .groups-page .children .panel-heading li {
-	display: table-cell;
+	margin: 0;
 	padding: 0 5px;
-	width: 1%;
+}
+.groups-page .children .panel-heading li:nth-child(n+7) {
+	float: left;
+	width: 16.6665%;
 }
 .groups-page .children .panel-heading li.active a {
 	background: #0087d2;
@@ -508,8 +524,19 @@ dl dt, dl dd {
 
 
 
-
 /* Media Queries */
+@media (max-width: 767px) {
+	.col-xs-0 {
+		display: none;
+	}
+	.groups-page .children .panel-heading li {
+		float: left;
+		min-width: 25%;
+	}
+	.groups-page .sort-by {
+		display: none;
+	}
+}
 @media (max-width: 600px) {
 	.main-content {
 		padding: 0 20px;
@@ -524,9 +551,47 @@ dl dt, dl dd {
 	.groups-page .group {
 		width: 50%;
 	}
+	.groups-page .children .panel-heading li {
+		min-width: 33.3332%;
+	}
+	.groups-page .kanji-filter {
+		padding-right: 0;
+		width: 40%;
+	}
+	.groups-page .kanji-tools {
+		padding-left: 0;
+		width: 60%;
+	}
 }
-@media (max-width: 767px) {
-	.col-xs-0 {
-		display: none;
+@media (max-width: 500px) {
+	.main-content {
+		padding: 0 10px;
+	}
+	.groups-page .children .panel-heading li {
+		min-width: 50%;
+	}
+}
+@media (max-width: 450px) {
+	.groups-page .kanji-filter, .groups-page .kanji-tools {
+		width: 100%;
+	}
+	.groups-page .kanji-filter {
+		padding-right: 15px;
+	}
+	.groups-page .kanji-tools {
+		padding-left: 15px;
+	}
+	.groups-page .kanji-filter ul, .groups-page .kanji-tools ul {
+		text-align: center !important;
+	}
+	.groups-page .kanji-filter li {
+		width: 100%;
+	}
+	.groups-page .kanji-tools li {
+		float: left;
+		width: 50%;
+	}
+	.groups-page .kanji-tools button {
+		width: 100%;
 	}
 }

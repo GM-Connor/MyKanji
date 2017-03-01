@@ -16,7 +16,7 @@
 		<div class="titlebar">
 			<div class="main-titlebar">
 				<div class="brand">
-					<img class="brand-image" src="mockups/brand3.png">
+					<a href="dashboard.html"><img class="brand-image" src="mockups/brand3.png"></a>
 				</div>
 				<!-- <ul class="nav nav-pills">
 					<li role="presentation" class="active"><a href="#">Home</a></li>
@@ -107,7 +107,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-xs-6 col-sm-6 group blue active">
+							<div class="col-xs-6 col-sm-6 group blue">
 								<div>
 									<div class="group-name">JLPT</div>
 									<div class="pie-percent">
@@ -123,7 +123,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-xs-6 col-sm-6 group purple">
+							<div class="col-xs-6 col-sm-6 group purple active">
 								<div>
 									<div class="group-name">Grades</div>
 									<div class="pie-percent">
@@ -161,16 +161,22 @@
 								<div class="panel">
 									<div class="panel-heading">
 										<ul class="nav nav-pills nav-justified" role="tablist">
-											<li role="presentation" class="active"><a>JLPT 5</a></li>
-											<li role="presentation"><a>JLPT 4</a></li>
-											<li role="presentation"><a>JLPT 3</a></li>
-											<li role="presentation"><a>JLPT 2</a></li>
-											<li role="presentation"><a>JLPT 1</a></li>
+											<li role="presentation" class="active"><a>Grade 1</a></li>
+											<li role="presentation"><a>Grade 2</a></li>
+											<li role="presentation"><a>Grade 3</a></li>
+											<li role="presentation"><a>Grade 4</a></li>
+											<li role="presentation"><a>Grade 5</a></li>
+											<li role="presentation"><a>Grade 6</a></li>
+											<div class="break"></div> <!-- This goes after every sixth one -->
+											<li role="presentation"><a>Grade fake</a></li>
+											<li role="presentation"><a>Grade fake</a></li>
+											<li role="presentation"><a>Grade fake</a></li>
+											<li role="presentation"><a>Grade fake</a></li>
 										</ul>
 									</div>
 									<div class="options">
 										<div class="row">
-											<div class="col-md-12 kanji-filter">
+											<div class="col-xs-12 col-sm-15 kanji-filter">
 												<ul class="list-inline">
 													<li>
 														<input type="text" class="form-control" id="kanjiFilter" placeholder="Filter...">
@@ -189,7 +195,7 @@
 													</li>
 												</ul>
 											</div>
-											<div class="col-md-12 kanji-tools">
+											<div class="col-xs-12 col-sm-9 kanji-tools">
 												<ul class="list-inline">
 													<li class="addkanji">
 														<button type="button" class="btn btn-default">
