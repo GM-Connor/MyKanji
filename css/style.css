@@ -19,6 +19,24 @@ dl {
 dl dt, dl dd {
 	display: inline-block;
 }
+input[type="email"], input[type="password"] {
+    -webkit-appearance: none;
+    appearance: none;
+    display: inline-block;
+    height: 29px;
+    margin: 0;
+    padding: 0 8px;
+    background: #fff;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+    font-weight: normal;
+}
 
 
 
@@ -493,6 +511,81 @@ dl dt, dl dd {
 	background: hsl(0, 0%, 100%);
 	box-shadow: 0 3px hsl(0, 0%, 80%);
 }
+
+
+
+/* Signup page */
+.signup-login {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 14px;
+}
+.signup-login, .signup-login .footer {
+	background: #f1f1f1;
+}
+.signup-login .main-content {
+	background: none;
+	border: none;
+	max-width: 400px;
+	margin-top: 30px;
+}
+.signup-login .panel-body {
+	background: none;
+	padding: 0;
+	text-align: left;
+}
+.signup-login h1 {
+	text-align: left;
+	/*font-family: arial, sans-serif;*/
+	font-size: 18px;
+	font-weight: normal;
+	margin: 0 0 .92em;
+}
+.signup-login label {
+	width: 100%;
+}
+.signup-login strong {
+	margin: 0 0 .5em;
+	display: inline-block;
+    width: 100%;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+.signup-login .submit-button {
+	display: inline-block;
+    min-width: 46px;
+    text-align: center;
+    color: #444;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0 8px;
+    border-radius: 2px;
+    -webkit-transition: all 0.218s;
+    -moz-transition: all 0.218s;
+    -ms-transition: all 0.218s;
+    -o-transition: all 0.218s;
+    transition: all 0.218s;
+    cursor: pointer;
+	height: 37px;
+	width: 100%;
+	line-height: 29px;
+    vertical-align: bottom;
+    margin: 0;
+    color: #fff;
+    border: none;
+    text-shadow: 0 1px rgba(0,0,0,0.1);
+	background: hsl(200, 74%, 45%);
+	box-shadow: 0 3px hsl(200, 74%, 25%);
+	color: #fff;
+}
+.signup-login .submit-button:hover {
+	background: hsl(200, 74%, 50%);
+	box-shadow: 0 3px hsl(200, 74%, 30%);
+}
+.signup-login .footer {
+	border-color: #e1e1e1;
+}
+
 
 
 /* Default */
